@@ -1,0 +1,17 @@
+<!-- <h2>Likes:{{product.likes}}</h2> -->
+<div *ngIf="show" class="prod">
+<img [src]="product.image" [alt]="product.name" />
+  <h3>
+    <h3>
+      <a href="{{product.link}}" [title]="product.name + ' details'">
+        {{ product.name }}
+      </a>
+    </h3>
+    <p *ngIf="product.description">Description: {{ product.description }}</p>
+    <p *ngIf="product.price">Price: {{ product.price}}</p>
+    <p *ngIf="product.price">Likes: {{ product.likes}}</p>
+  </h3>
+  <button type="button" (click)="like(product)">Like</button>
+  <button type="button" (click)="show=!show">Dont show</button>
+  <!-- <button type="button" (click)="share(product)">Share</button> -->
+</div>

@@ -1,0 +1,10 @@
+<app-top-bar></app-top-bar>
+<div class="buttons">
+  <button type="button" (click)="selectCategory(1)">The Weeknd</button>
+  <button type="button" (click)="selectCategory(2)">Kanye West</button>
+  <button type="button" (click)="selectCategory(3)">Travis Scott</button>
+  <button type="button" (click)="selectCategory(4)">Tyler, the creator</button>
+</div>
+<div >
+    <app-product-list *ngIf="categoryid" [categoryid]="categoryid"></app-product-list>
+</div>

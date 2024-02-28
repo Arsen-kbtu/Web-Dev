@@ -11,7 +11,7 @@ export interface Product {
 export const products = [
   {
     id: 1,
-    name: 'Borjomi 1.254',
+    name: 'Borjomi 1.25',
     price: 237,
     description: 'Water',
     image: "../assets/images/borjomi.png",
@@ -61,7 +61,7 @@ export const products = [
     description: 'Cold tea',
     image: "../assets/images/maxi.png",
     raiting: 5,
-    link: "https://kaspi.kz/shop/p/maxi-tea-limon-1-5-l-100210996/?c=750000000&m=Magnum&sr=1&ref=shared_link"
+    link: "https://kaspi.kz/shop/p/holodnyi-chai-maxi-chai-zelenyi-limon-1-2-l-100234969/?c=750000000&m=Magnum&sr=14&ref=shared_link"
   },
   {
     id: 7,
